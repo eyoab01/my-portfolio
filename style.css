@@ -500,6 +500,7 @@ form > button:hover {
     max-width: 500px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   nav {
     padding: 15px 150px;
@@ -534,5 +535,3 @@ form > button:hover {
     max-width: 600px;
   }
 }
-
-
