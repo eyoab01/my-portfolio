@@ -17,8 +17,16 @@
 body {
   min-height: 100vh;
   background: #f7f7f9;
+  box-sizing: border-box;
 }
 
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+
+}
 ul {
   list-style-type: none;
   display: flex;
@@ -37,6 +45,8 @@ nav {
   position: fixed;
   top: 0;
   width: calc(100% - 60px);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  
 }
 
 .logo {
@@ -109,26 +119,22 @@ a {
   padding-left: 0;
 }
 
-#projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  box-sizing: border-box;
-  align-items: center;
-  padding: 142px 142px;
-}
-
 .card {
   display: flex;
-  flex-direction: column;
-  max-width: 330px;
+  flex-direction: row;
+  align-self: center;
   background: #fff;
   border: 2px solid #dfe1e6;
-  border-radius: 16px;
   box-shadow: 0 0 0.5px 0.25px inset #c8c6c6;
   padding: 16px 16px 30px 16px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   transition: all ease-in-out 0.2s;
+  height: 400px;
+  width: 1156px;
+  left: 0px;
+  top: 0px;
+  border-radius: 24px;
+
 }
 
 .card > div > img {
@@ -380,6 +386,11 @@ form > button:hover {
   background: #2230d2;
 }
 
+.card-container {
+  display:flex;
+  flex-direction: column;
+}
+
 .card:hover {
   border: 2px solid #a7aeff;
 }
@@ -393,6 +404,113 @@ form > button:hover {
 .card:active .btn-action {
   color: white;
   background: #2230d2;
+}
+
+@media screen and (min-width: 728px) {
+  #desk-list {
+    display: flex;
+    min-width: 200px;
+  }
+
+  #Union-menu {
+    display: none;
+  }
+
+  h1 {
+    font-size: 44px;
+    max-width: 400px;
+    font-family: var(--mainF);
+    font-weight: 700px;
+  }
+
+  main {
+    display: flex;
+    padding: 200px 100px 150px 100px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #projects {
+    padding: 100px 50px;
+  }
+
+  .card {
+    max-width: calc(100% - 100px);
+    flex-direction: row;
+  }
+
+  .card-img {
+    width: 55%;
+    padding-right: 20px;
+    margin: auto;
+  }
+
+  .details {
+    width: 45%;
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+
+  #projects :nth-child(2n) > .details {
+    order: 1;
+  }
+
+  #projects :nth-child(2n) > .card-img {
+    order: 2;
+  }
+
+  #about-me {
+    flex-direction: row;
+  }
+
+  #about-myself {
+    width: 40%;
+  }
+
+  #lfs-section {
+    margin: 0;
+    padding: 0 30px;
+    max-width: 100%;
+  }
+
+  #lfs-section > li {
+    margin: 0 0 20px 0;
+  }
+
+  #about-myself-2 {
+    width: 60%;
+  }
+
+  #languages > ul {
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+
+  #languages > ul > li {
+    flex-direction: column !important;
+    margin: 0 10px 10px 0 !important;
+    width: 120px;
+    height: 120px !important;
+    justify-content: space-evenly;
+  }
+
+  #languages > ul > li > h6 {
+    margin: 0 !important;
+  }
+
+  #contact {
+    align-items: center;
+  }
+
+  #contact > div {
+    max-width: 700px;
+  }
+
+  #contact > form {
+    max-width: 500px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -414,7 +532,7 @@ form > button:hover {
 
   .card {
     max-width: calc(100% - 284px);
-    margin-bottom: 142px;
+    margin-bottom: 142px; 
   }
 
   #about-me {
