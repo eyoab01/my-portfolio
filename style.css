@@ -109,19 +109,11 @@ a {
   padding-left: 0;
 }
 
-#projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  box-sizing: border-box;
-  align-items: center;
-  padding: 142px 142px;
-}
-
 .card {
   display: flex;
-  flex-direction: column;
-  max-width: 330px;
+  flex-direction: row;
+  align-self: center;
+  max-width: 1155px;
   background: #fff;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
@@ -407,13 +399,13 @@ form > button:hover {
 
   h1 {
     font-size: 44px;
-    max-width: 400px;
+    max-width: 700px;
     font-family: var(--mainF);
     font-weight: 700px;
   }
 
   main {
-    padding: 200px 100px 150px 100px;
+    padding: 100px 100px 150px 100px;
   }
 
   p {
@@ -421,12 +413,15 @@ form > button:hover {
   }
 
   #projects {
-    padding: 100px 50px;
+    padding: 100px 100px;
+    align-self: center;
+    flex-direction: column; 
+    
   }
 
   .card {
     max-width: calc(100% - 100px);
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .card-img {
