@@ -415,8 +415,7 @@ form > button:hover {
   #projects {
     padding: 100px 100px;
     align-self: center;
-    flex-direction: column; 
-    
+    flex-direction: column;  
   }
 
   .card {
