@@ -111,15 +111,15 @@ a {
 
 .card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-self: center;
-  max-width: 1155px;
+  max-width: 1700px;
   background: #fff;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   box-shadow: 0 0 0.5px 0.25px inset #c8c6c6;
   padding: 16px 16px 30px 16px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   transition: all ease-in-out 0.2s;
 }
 
@@ -413,12 +413,20 @@ form > button:hover {
   }
 
   #projects {
-    padding: 100px 50px;
+    padding: 50px 50px;
+    align-self: center;
   }
 
   .card {
     max-width: calc(100% - 100px);
-    flex-direction: column;
+    flex-direction: row;
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
   }
 
   .card-img {
@@ -506,7 +514,7 @@ form > button:hover {
   h1 {
     font-size: 48px;
     margin-right: 170px;
-    max-width: 600px;
+    max-width: 1600px;
     font-family: var(--mainF);
   }
 
