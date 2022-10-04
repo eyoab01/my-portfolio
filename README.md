@@ -1,5 +1,5 @@
-# https://github.com/eyoab01/Microverse-project-mobfinish
-#  https://github.com/eyoab01/mobile-portfolio-project-final
+# [https://eyoab01.github.io/mobile-portfolio-project-final/]
+# [https://eyoab01.github.io/mobile-portfolio-project-final/]
 This page is about my portfolio as a software developer
 
 ## Built With
@@ -24,7 +24,7 @@ Install the linters folder to your project. Install the fontawesome for icons in
 
 ## Deployment link
 
-My portifolio website can be viewed at:  https://github.com/eyoab01/mobile-portfolio-project-final
+My portifolio website can be viewed at: https://eyoab01.github.io/mobile-portfolio-project-final/
 
 
 ### Authors
