@@ -356,6 +356,10 @@ form > button:hover {
   color: white;
 }
 
+form > button:active {
+  background-color: #2230D2;
+}
+
 /* hovers and active */
 .btn-action {
   transition: all ease-in-out 0.2s;
