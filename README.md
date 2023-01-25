@@ -1,39 +1,127 @@
-# https://github.com/eyoab01/Microverse-project-mobfinish
-#  https://github.com/eyoab01/mobile-portfolio-project-final
-This page is about my portfolio as a software developer
+<a name="readme-top"></a>
 
-## Built With
-HTML and CSS
+<div align="center">
+
+  <h3><b>Portfolio mobile README </b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
 
-## Setup
-download linters folder from microverse github and copy it to your project.
+# 📖 [Portfolio mobile project] <a name="about-project"></a>
 
-## Install
-install the linters and the fontawesome library. (Preferred)
+**[Portfolio mobile project]** is a project that describe my skills and previous work experience.
 
-To get a local copy up and running follow these simple steps.
+## 🛠 Built With <a name="built-with">html and css</a>
 
-## Prerequisites
-Install code editor to be able to run the commands in the terminal. VSCode 
-## Setup
- download the linters folder and copy it to your project You can clone the project through git clone https://github.com/eyoab01/mobile-portfolio-project-final
+### Key Features <a name="key-features"></a>
 
-## Install
-Install the linters folder to your project. Install the fontawesome for icons in the project 
+- **[contact form ]**
+- **[projects show cards]**
 
-## Deployment link
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-My portifolio website can be viewed at:  https://github.com/eyoab01/mobile-portfolio-project-final
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://github.com/eyoab01/mobile-portfolio-project-final)
 
-### Authors
-👤 Tesfaye Teklu Feyissa
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-GitHub: @eyoab01
-Twitter: @tesfayeteklu10
-LinkedIn: www.linkedin.com/in/tesfaye-teklu-352067105
+## 💻 Getting Started <a name="getting-started"></a>
 
-Feel free to check the issues page.
+To get a local copy up and running, follow these steps.
+1.copy the repository link from github.(https://github.com/eyoab01/mobile-portfolio-project-final)
+2.open vscode on your computer clone it to your new folder.
+3.wright click on the index.html file and select open with live server.
+
+### Prerequisites
+
+In order to run this project you need:
+vscode editor (you can download it from https://code.visualstudio.com/download)
+
+### Setup
+
+create a folder and name it 'my-folder'
+open with vscode editor > right click on the folder and select >open in integrated terminal option
+cd my-folder
+git clone https://github.com/eyoab01/mobile-portfolio-project-final.git
+
+### Usage
+
+To run the project, do the following:
+go to your project folder and right click on the index.html file and select open with live server.
+
+### Run tests
+
+To run tests, do the following step:
+go to your project folder and right click on the index.html
+
+### Deployment
+
+You can deploy this project using:
+vscode or github
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Tesfaye Teklu**
+
+- GitHub: [@eyoab01](https://github.com/eyoab01)
+- Twitter: [@tesfayeteklu10](https://twitter.com/@tesfayeteklu10)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tesfaye-teklu-352067105)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[comment submmition Form]**
+- [ ] **[contact me form]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/eyoab01/mobile-portfolio-project-final/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project you can support any time.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank my coding partners from microverse for supporting me to develop this page.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
