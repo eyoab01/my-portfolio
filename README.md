@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio mobile README </b></h3>
+  <h3><b>Portfolio Desktop README </b></h3>
 
 </div>
 
