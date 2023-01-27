@@ -64,6 +64,14 @@ nav {
   padding: 18px;
 }
 
+.card-desk {
+  display: none;
+}
+
+.hand-cursor {
+  display: none;
+}
+
 main {
   border-bottom-left-radius: 100px;
   margin-bottom: 100px;
@@ -71,13 +79,17 @@ main {
   background: white url('./images/Header.svg') no-repeat;
   background-size: contain;
   margin-top: 75px;
+  padding-top: 200px;
 }
 
 h1 {
-  margin-right: 80px;
+  font-style: normal;
   font-weight: 700;
+  font-size: 40px;
   line-height: 52px;
-  font-family: var(--secC);
+  display: flex;
+  align-items: center;
+  color: #172b4d;
 }
 
 p {
@@ -119,9 +131,12 @@ a {
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   box-shadow: 0 0 0.5px 0.25px inset #c8c6c6;
-  padding: 16px 16px 30px 16px;
   margin-bottom: 50px;
   transition: all ease-in-out 0.2s;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .card > div > img {
@@ -246,10 +261,6 @@ a {
   font-size: 20px;
   line-height: 24px;
   position: relative;
-}
-
-.card:hover img {
-  transform: scale(1.05);
 }
 
 #lfs-section > li > h4 > img {
@@ -381,13 +392,152 @@ form > button:active {
   border: 2px solid #a7aeff;
 }
 
-.card:hover .btn-action {
-  color: white;
-  background: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
+@media screen and (min-width: 728px) {
+  #desk-list {
+    display: flex;
+    min-width: 200px;
+  }
 
-.card:active .btn-action {
-  color: white;
-  background: #2230d2;
+  #Union-menu {
+    display: none;
+  }
+
+  h1 {
+    font-size: 44px;
+    max-width: 700px;
+    font-family: var(--mainF);
+    font-weight: 700px;
+  }
+
+  main {
+    padding: 250px 250px 250px 250px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #projects {
+    padding: 50px 50px;
+    align-self: center;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-desk {
+    display: flex;
+    align-self: center;
+    background: #fff;
+    border: 2px solid #dfe1e6;
+    border-radius: 16px;
+    box-shadow: 0 0 0.5px 0.25px inset #c8c6c6;
+    margin-bottom: 50px;
+    transition: all ease-in-out 0.2s;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: calc(100% - 100px);
+    flex-direction: row;
+  }
+
+  .details > img {
+    width: 81px;
+    height: 81px;
+    transform: rotate(-40.54deg);
+    padding-right: 150px;
+  }
+
+  .btn-action:hover {
+    color: white;
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .card-desk:active .btn-action {
+    color: white;
+    background: #2230d2;
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+  }
+
+  .card-img {
+    width: 55%;
+    padding-right: 20px;
+    margin: auto;
+  }
+
+  .details {
+    width: 45%;
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+
+  #projects :nth-child(2n) > .details {
+    order: 1;
+  }
+
+  #projects :nth-child(2n) > .card-img {
+    order: 2;
+  }
+
+  #about-me {
+    flex-direction: row;
+  }
+
+  #about-myself {
+    width: 40%;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  #lfs-section {
+    margin: 0;
+    padding: 0 30px;
+    max-width: 100%;
+  }
+
+  #lfs-section > li {
+    margin: 0 0 20px 0;
+  }
+
+  #about-myself-2 {
+    width: 60%;
+  }
+
+  #languages > ul {
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+
+  #languages > ul > li {
+    flex-direction: column !important;
+    margin: 0 10px 10px 0 !important;
+    width: 120px;
+    height: 120px !important;
+    justify-content: space-evenly;
+  }
+
+  #languages > ul > li > h6 {
+    margin: 0 !important;
+  }
+
+  #contact {
+    align-items: center;
+  }
+
+  #contact > div {
+    max-width: 700px;
+  }
+
+  #contact > form {
+    max-width: 500px;
+  }
 }

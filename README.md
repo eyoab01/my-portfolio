@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio mobile README </b></h3>
+  <h3><b>Portfolio Desktop README </b></h3>
 
 </div>
 
@@ -123,5 +123,4 @@ I would like to thank my coding partners from microverse for supporting me to de
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
