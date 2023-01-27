@@ -263,10 +263,6 @@ a {
   position: relative;
 }
 
-.card:hover img {
-  transform: scale(1.05);
-}
-
 #lfs-section > li > h4 > img {
   width: 30px;
   position: absolute;
@@ -396,17 +392,6 @@ form > button:active {
   border: 2px solid #a7aeff;
 }
 
-.card:hover .btn-action {
-  color: white;
-  background: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
-
-.card:active .btn-action {
-  color: white;
-  background: #2230d2;
-}
-
 @media screen and (min-width: 728px) {
   #desk-list {
     display: flex;
@@ -465,20 +450,7 @@ form > button:active {
     padding-right: 150px;
   }
 
-  .card-desk > div > img {
-    width: 100%;
-    transition: all ease-in-out 0.2s;
-  }
-
-  .card-desk:hover img {
-    transform: scale(1.05);
-  }
-
-  .card-desk:hover {
-    border: 2px solid #a7aeff;
-  }
-
-  .card-desk:hover .btn-action {
+  .btn-action:hover {
     color: white;
     background: #6070ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
