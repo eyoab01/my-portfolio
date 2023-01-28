@@ -392,6 +392,12 @@ form > button:active {
   border: 2px solid #a7aeff;
 }
 
+.card:hover .btn-action {
+  color: white;
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
 @media screen and (min-width: 728px) {
   #desk-list {
     display: flex;
@@ -426,6 +432,29 @@ form > button:active {
     display: none;
   }
 
+  .card:hover {
+    border: 2px solid #a7aeff;
+  }
+
+  .btn-action:hover {
+    color: white;
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .card:hover .btn-action {
+    color: white;
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .details > img {
+    width: 81px;
+    height: 81px;
+    transform: rotate(-40.54deg);
+    padding-right: 150px;
+  }
+
   .card-desk {
     display: flex;
     align-self: center;
@@ -443,22 +472,17 @@ form > button:active {
     flex-direction: row;
   }
 
-  .details > img {
-    width: 81px;
-    height: 81px;
-    transform: rotate(-40.54deg);
-    padding-right: 150px;
+  .card-desk > div > img {
+    width: 100%;
+    transition: all ease-in-out 0.2s;
   }
 
-  .btn-action:hover {
-    color: white;
-    background: #6070ff;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  .card-desk:hover img {
+    transform: scale(1.05);
   }
 
-  .card-desk:active .btn-action {
-    color: white;
-    background: #2230d2;
+  .card-desk:hover {
+    border: 2px solid #a7aeff;
   }
 
   .card-container {
