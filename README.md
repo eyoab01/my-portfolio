@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio Desktop README </b></h3>
+  <h3><b>Tesfaye Portfolio README </b></h3>
 
 </div>
 
@@ -41,7 +41,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/eyoab01/mobile-portfolio-project-final)
+- [Live Demo Link](https://eyoab01.github.io/mobile-portfolio-project-final/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,12 +72,12 @@ go to your project folder and right click on the index.html file and select open
 ### Run tests
 
 To run tests, do the following step:
-go to your project folder and right click on the index.html
+go to your project folder and right click on the index.html or https://eyoab01.github.io/mobile-portfolio-project-final/
 
 ### Deployment
 
 You can deploy this project using:
-vscode or github
+vscode or github.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,6 +88,7 @@ vscode or github
 - GitHub: [@eyoab01](https://github.com/eyoab01)
 - Twitter: [@tesfayeteklu10](https://twitter.com/@tesfayeteklu10)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tesfaye-teklu-352067105)
+- website: [https://eyoab01.github.io/mobile-portfolio-project-final/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
