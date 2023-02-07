@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tesfaye-Portifolio-Project</title>
   <link rel="stylesheet" href="style.css" />
+  
 </head>
 
 <body>
   <div>
-
     <nav>
       <h3 class="logo pointer">TESFAYE.T</h3>
       <div>
@@ -20,9 +20,17 @@
           <li class="pointer"><a href="#about-me">About</a></li>
           <li class="pointer"><a href="#contact">Contact</a></li>
         </ul>
-        <img class="pointer" id="Union-menu" src="./images/Union.svg" alt="Menu" />
+        <img class="hamburger" src="./images/Union.svg" alt="Menu" />
       </div>
     </nav>
+    <div class="hidden-menu">
+      <div><span class="hamburger-close">&#x2715;</span></div>
+      <ul>
+        <li class="hidden-list"><a href="#projects-desk">Portoflio</a></li>
+        <li class="hidden-list"><a href="#about-me">About</a></li>
+        <li class="hidden-list"><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
 
     <main>
       <section>
@@ -82,7 +90,6 @@
         </div>
       </div>
       
-
       <div class="card">
         <div class="card-img">
           <img src="./images/Snapshoot-Portfolio-1.png" alt="Portfolio Snapshoot picture" />
@@ -365,6 +372,8 @@
         <button type="submit">Get in touch</button>
       </form>
     </section>
+    <script src="main.js"></script>
+
   </body>
 
 </html>

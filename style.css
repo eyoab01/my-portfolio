@@ -19,14 +19,77 @@ body {
   background: #f7f7f9;
 }
 
+.hidden-menu {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  left: -100%;
+  top: 0;
+  z-index: 3;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
 
+.hidden-menu > ul {
+  flex-direction: column;
+  margin: 51px 29px;
+  align-items: center;
+}
+
+a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--sec2C);
+}
+
+.details > a {
+  border: 1px solid #396df2;
+  border-radius: 14px;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 16px 10px;
+}
+
+.hidden-menu > ul > li > a {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff !important;
+  text-decoration: none;
+}
+
 li {
   padding: 10px;
+}
+
+.hidden-menu > ul > li {
+  padding: 10px;
+}
+
+.hidden-menu > div {
+  display: flex;
+  justify-content: end;
+  margin: 30px 30px;
+  font-size: 25px;
+  color: white;
+}
+
+.hidden-menu.active {
+  left: 0;
 }
 
 nav {
@@ -57,11 +120,6 @@ nav {
 
 #desk-list {
   display: none;
-}
-
-#Union-menu {
-  display: unset;
-  padding: 18px;
 }
 
 .card-desk {
@@ -102,13 +160,6 @@ p {
   font-style: normal;
   text-align: justify;
   text-justify: inter-word;
-}
-
-a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--sec2C);
 }
 
 .socials {
@@ -214,19 +265,6 @@ a {
   text-align: center;
   float: left;
   list-style-type: none;
-}
-
-.details > a {
-  border: 1px solid #396df2;
-  border-radius: 14px;
-  font-size: 17px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 16px 10px;
 }
 
 #about-me {
@@ -404,7 +442,11 @@ form > button:active {
     min-width: 200px;
   }
 
-  #Union-menu {
+  .hidden-menu {
+    display: none;
+  }
+
+  .hamburger {
     display: none;
   }
 
