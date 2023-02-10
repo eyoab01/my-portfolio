@@ -1,4 +1,3 @@
-
 const hamburgerMenu = document.querySelector(".hamburger");
 const hamburgerClose = document.querySelector(".hamburger-close");
 const navMenu = document.querySelector(".hidden-menu");
@@ -16,14 +15,12 @@ navLinks.forEach((ele) => ele.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 }));
 
-
-
 /*popup*/
 
 const Project = [
   {
     id: 0,
-    img: './imgages/Snapshoot-Portfolio-4.png',
+    img: './images/Snapshoot-Portfolio-4.png',
     header: 'Multi-Post Stories',
     lists: ['CANOPY', 'Back End', '2015'],
     paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries,',
@@ -98,20 +95,4 @@ cards.forEach((ele, i) => {
   ele.addEventListener('click', () => {
     makPopuppart(Project[i]);
   });
-});
-
-/*form validation*/
-
-const form = document.forms[0];
-const email = form.elements[1];
-const submit = document.querySelector('button[type=submit]');
-const msg = document.querySelector('form > span');
-submit.addEventListener('click', (event) => {
-  const { value } = email;
-  const lowercase = value.toLowerCase();
-  if (value !== lowercase) {
-    event.preventDefault();
-    msg.style.color = '#d8000c';
-    msg.innerHTML = 'Please write your email in Lowercase.';
-  }
 });
