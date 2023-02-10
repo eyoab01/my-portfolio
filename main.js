@@ -28,7 +28,7 @@ const Project = [
   },
   {
     id: 1,
-    img: './imgages/Snapshoot-Portfolio.png',
+    img: './images/Snapshoot-Portfolio.png',
     header: 'Facebook 360',
     lists: ['FACEBOOK', 'Back End', '2015'],
     paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries,',
@@ -36,7 +36,7 @@ const Project = [
   },
   {
     id: 2,
-    img: './imgages/Snapshoot-Portfolio-1.png',
+    img: './images/Snapshoot-Portfolio-1.png',
     header: 'Uber Navigations',
     lists: ['UBER', 'Back End', '2015'],
     paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries,',
@@ -44,7 +44,7 @@ const Project = [
   },
   {
     id: 3,
-    img: './imgages/Snapshoot-Portfolio-2.png',
+    img: './images/Snapshoot-Portfolio-2.png',
     header: 'Multi-Post Stories',
     lists: ['CANOPY', 'Back End', '2015'],
     paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries,',
@@ -52,7 +52,7 @@ const Project = [
   },
   {
     id: 4,
-    img: './imgages/Snapshoot-Portfolio-3.png',
+    img: './images/Snapshoot-Portfolio-3.png',
     header: 'Multi-Post Stories',
     lists: ['FACEBOOK', 'FULL Stack Dev', '2015'],
     paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries,',

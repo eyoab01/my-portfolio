@@ -651,3 +651,37 @@ form > button:active {
     height: 100%;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  nav {
+    padding: 15px 150px;
+    width: calc(100% - 300px);
+  }
+
+  main {
+    padding: 240px 260px 210px 260px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-right: 170px;
+    max-width: 600px;
+  }
+
+  .card {
+    max-width: calc(100% - 284px);
+    margin-bottom: 142px;
+  }
+
+  #about-me {
+    padding: 142px;
+  }
+
+  #contact > div {
+    max-width: 800px;
+  }
+
+  #contact > form {
+    max-width: 600px;
+  }
+}
