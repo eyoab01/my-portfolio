@@ -168,7 +168,7 @@ body {
 }
 
 #show-popup svg {
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 #show-popup > a > span {
@@ -755,12 +755,12 @@ form > button:active {
     align-items: center;
   }
 
-  #contact > div {
-    max-width: 700px;
-  }
-
   #contact > form {
     max-width: 500px;
+  }
+
+  #contact > div {
+    max-width: 700px;
   }
 
   #main-pop {
@@ -777,17 +777,17 @@ form > button:active {
     margin-top: 30px;
   }
 
-  #pop-image {
-    max-width: unset;
-    height: 50vh;
-    overflow: hidden;
-    border-radius: 20px;
-  }
-
   #pop-image > img {
     -o-object-fit: cover;
     object-fit: cover;
     background-size: cover;
     height: 100%;
+  }
+
+  #pop-image {
+    max-width: unset;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 20px;
   }
 }
