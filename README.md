@@ -90,6 +90,12 @@ vscode or github.
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tesfaye-teklu-352067105)
 - website: [https://eyoab01.github.io/mobile-portfolio-project-final/]
 
+👤 **Santosh Konappanavar**
+
+- GitHub: [@Santosh-Konappanavar](https://github.com/Santosh-Konappanavar)
+- Twitter: [@SantoshKonappa1](https://twitter.com/@tesfayeteklu10)
+- Email: [siddukundaragi20@gmail.com]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
