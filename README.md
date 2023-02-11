@@ -96,6 +96,12 @@ vscode or github.
 - Twitter: [@SantoshKonappa1](https://twitter.com/@tesfayeteklu10)
 - Email: [siddukundaragi20@gmail.com]
 
+👤 **Bisaso Ronald**
+
+- GitHub: [@bronnie313](https://github.com/bronnie313)
+- Twitter: [@bisaso_r](https://twitter.com/bisaso_r)
+- Email: [bronnie313@gmail.com]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
