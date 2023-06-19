@@ -650,7 +650,22 @@ form > button:active {
     background-size: cover;
     height: 100%;
   }
+  .copy {
+    display: flex;
+    background-color: #ffffff;
+    display: flex;
+  
+  }
+  
+  .copy h4{
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #9c9c9c;
+  }
 }
+
 
 @media screen and (min-width: 1200px) {
   nav {
