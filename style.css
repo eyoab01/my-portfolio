@@ -684,4 +684,19 @@ form > button:active {
   #contact > form {
     max-width: 600px;
   }
+  .copy {
+    display: flex;
+    background-color: #ffffff;
+    display: flex;
+  
+  }
+  
+  .copy h4{
+    text-align: center;
+    padding-left: 550px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+
 }
